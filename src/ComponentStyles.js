@@ -9,7 +9,7 @@ export const Container = styled.section`
   width: auto;
   align-items: center;
   background: #EDECE4;
-  // padding: 20px;
+  padding-top: 0px;
   padding-bottom: 50px;
   // @media (min-width: 768px) {
   //   height: 62vh;
@@ -22,7 +22,7 @@ display: flex;
 width: auto;
 text-align: center;
 color: #114709;
-font-size: 1.3em;
+font-size: 1.5em;
 font-weight: 400;
 padding: 20px;
 `

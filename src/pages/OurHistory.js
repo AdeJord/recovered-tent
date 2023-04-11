@@ -3,24 +3,20 @@ import styled from "styled-components";
 import '../App.css'
 import keays from '../images/keays.jpg'
 import truman from '../images/truman.jpg'
-import lenwilson from '../images/lenwilson.jpg'
-import trumanonlift from '../images/trumanonlift.jpg'
-import insidetruman from '../images/insidetruman.jpg'
-import felgate from '../images/felgate.jpg'
 import Enterprise from '../images/Enterprise.jpg'
 import "@fontsource/roboto"; // Defaults to weight 400.
-import { Container } from '../ComponentStyles'
+import { Container, Header } from '../ComponentStyles'
 
-const Header = styled.div`
-font-family: "Roboto";
-display: flex;
-width: 80vw;
-text-align: center;
-color: #114709;
-font-size: 1.1em;
-font-weight: 400;
-padding: 20px;
-`
+// const Header = styled.div`
+// font-family: "Roboto";
+// display: flex;
+// width: 80vw;
+// text-align: center;
+// color: #114709;
+// font-size: 1.1em;
+// font-weight: 400;
+// padding: 20px;
+// `
 
 const TopDiv = styled.div`
 font-family: "Roboto";
@@ -103,7 +99,7 @@ padding-bottom: 20px;
 const OurHistory = () => {
     return (
         <Container>
-                <div className = "page-title">Our History</div>
+                <Header>Our History</Header>
                 <Header>Truman Enterprise Narrowboat Trust (TENT) have been operating canal boat trips for over 50 years!</Header>
                 <hr style={{ width: '85vw' }} />
                 <TopDiv >

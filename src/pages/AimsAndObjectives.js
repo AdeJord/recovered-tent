@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "@fontsource/roboto"; // Defaults to weight 400.
-import { Container, TextContainer } from '../ComponentStyles'
+import { Container, TextContainer, Header } from '../ComponentStyles'
 
 
 const List = styled.ul`
@@ -15,7 +15,7 @@ const AimsAndObjectives = () => {
   return (
 
     <Container style={{paddingBottom: '48vh'}}>
-        <div style={{fontSize: '25px', textAlign: 'center'}}>Aims and Objectives</div>
+        <Header>Aims and Objectives</Header>
         <TextContainer>
         <List>
           <li>To provide affordable day trips on the canals for community groups and families with members who are elderly, disabled, unwell or disadvantaged.</li><br />

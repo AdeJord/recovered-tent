@@ -5,33 +5,31 @@ import "../App.css";
 import "../map.css";
 import Map from "../components/Location/Map";
 import { AddAPhoto } from "@material-ui/icons";
-import { Container, TextContainer } from '../ComponentStyles'
+import { TextContainer } from '../ComponentStyles'
 
-// const Container = styled.div`
-//   font-family: "Roboto";
-//   display: flex;
-//   flex-direction: row;
-//   height: auto;
-//   width: auto;
-//   padding: 10px;
-//   padding-bottom: 8vw;
-//   overflow: hidden;
-//   align-items: center;
-//   @media (max-width: 802px) {
-//     flex-direction: column;
-//     padding-bottom: 20vw
-//   }
-// `;
+const Container = styled.div`
+font-family: "Roboto";
+display: flex;
+flex-direction: row;
+height: auto;
+width: auto;
+padding-top: 10px;
+overflow: hidden;
+align-items: center;
+@media (max-width: 802px) {
+  flex-direction: column;
+}
+`
 
-// const TextDiv = styled.div`
-//   margin: 10px;
-//   width: 100%;
-//   height: 80vh;
-//   font-size: 1.2vw;
-//   @media (max-width: 802px) {
-//     height: auto;
-//   }
-// `;
+const TextDiv = styled.div`
+  margin: 10px;
+  width: 100%;
+  height: 80vh;
+  font-size: 1.2vw;
+  @media (max-width: 802px) {
+    height: auto;
+  }
+`;
 
 const MapDiv = styled.div`
   margin-left: 5px;
@@ -53,7 +51,7 @@ const AddressDiv = styled.div`
   margin-bottom: 10px;
   display: flex;
   font-size: 15px;
-  padding: 10px;
+  // padding: 10px;
   flex-direction: column;
   align-content: center;
   text-align: center;
@@ -67,7 +65,7 @@ const AddressDiv = styled.div`
 const ContactUs = () => {
   return (
     <Container>
-      <TextContainer>
+      <TextDiv>
         <div style={{fontSize: '25px', textAlign: 'center'}}>Our Location</div>
         <AddressDiv>
           Hatherton Marina, Queens Road, Calf Heath, Wolverhampton, WV107DT
@@ -75,11 +73,11 @@ const ContactUs = () => {
         <MapDiv>
           <Map />
         </MapDiv>
-        <p style={{ padding: "15px", color: "darkred", fontSize: '15px'}}>
+        <p style={{ paddingTop: "10px", color: "darkred", fontSize: '15px'}}>
           What Three Words:- ///armrests.chew.commutes
         </p>
-      </TextContainer>
-      <TextContainer>
+      </TextDiv>
+      <TextDiv>
         <div style={{fontSize: '25px', textAlign: 'center'}}>Contact Details</div>
         <br />
         <br />
@@ -188,7 +186,7 @@ const ContactUs = () => {
             </tbody>
           </table>
         </div>
-      </TextContainer>
+      </TextDiv>
     </Container>
   );
 };
