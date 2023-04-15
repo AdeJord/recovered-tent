@@ -4,7 +4,8 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
-  text-align center;
+  text-align: center;
+  justify-content: center;
   height: auto;
   width: auto;
   align-items: center;
@@ -18,13 +19,13 @@ export const Container = styled.section`
 
 export const Header = styled.div`
 font-family: "Roboto";
-display: flex;
 width: auto;
 text-align: center;
 color: #114709;
 font-size: 1.5em;
 font-weight: 400;
-padding: 20px;
+padding-top: 30px;
+padding-bottom: 20px
 `
 
 export const TextContainer = styled.div`

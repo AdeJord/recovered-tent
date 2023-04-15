@@ -14,11 +14,11 @@ const imagesbca = imageLinksbca
 
 const ImgContainer = styled.div`
 // background: blue;
-// object-fit: cover;
+object-fit: cover;
 // position: relative;
 display: flex;
 height: auto;
-width: auto;
+width: 90vw;
 flex-direction: column;
 align-items: center;
 overflow: hidden;
@@ -33,7 +33,7 @@ const Gallery = () => {
       </Header>
       
       <ImgContainer>
-      <ImageGallery items={imagesbca}/>
+      <ImageGallery items={images}/>
 
       </ImgContainer>
     </Container>

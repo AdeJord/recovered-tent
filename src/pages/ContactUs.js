@@ -81,7 +81,7 @@ const ContactUs = () => {
         <div style={{fontSize: '25px', textAlign: 'center'}}>Contact Details</div>
         <br />
         <br />
-        <div style={{ paddingTop: '10px'}}>
+        <div style={{ paddingTop: '19px'}}>
           <table>
             <thead>
               <tr>
@@ -97,9 +97,9 @@ const ContactUs = () => {
                 <td>Christopher Rogers</td>
                 <td>Chair of Management Committee</td>
                 <td>
-                  01922 479926
+                  <a href='tel:01922 479926'>01922 479926</a>
                   <br />
-                  07763 214 524
+                  <a href='tel:07763 214 524'>07763 214 524</a>
                   <br />
                   <a href="mailto:chairman@truman-enterprise.org.uk?body=My custom mail body">
                     chairman@truman-enterprise.org.uk
@@ -111,9 +111,9 @@ const ContactUs = () => {
                 <td>Christopher Rogers</td>
                 <td>Treasurer</td>
                 <td>
-                  01922 479926
+                  <a href='tel:01922 479926'>01922 479926</a>
                   <br />
-                  07763 214 524
+                  <a href='tel:07763 214 524'>07763 214 524</a>
                   <br />
                   <a href="mailto:chairman@truman-enterprise.org.uk?body=My custom mail body">
                     chairman@truman-enterprise.org.uk
@@ -125,7 +125,7 @@ const ContactUs = () => {
                 <td>Mariel Bishop</td>
                 <td>Secretary</td>
                 <td>
-                  0121 357 2570
+                  <a href='tel:0121 357 2570'>0121 357 2570</a>
                   <br />
                   <a href="mailto:info@truman-enterprise.org.uk?body=My custom mail body">
                     info@truman-enterprise.org.uk
@@ -137,7 +137,7 @@ const ContactUs = () => {
                 <td>Mariel Bishop</td>
                 <td>Booking Secretary</td>
                 <td>
-                  0121 357 2570
+                  <a href='tel:0121 357 2570'>0121 357 2570</a>
                   <br />
                   <a href="mailto:info@truman-enterprise.org.uk?body=My custom mail body">
                     info@truman-enterprise.org.uk
@@ -149,7 +149,7 @@ const ContactUs = () => {
                 <td>David Leaper</td>
                 <td>Trust Trainer</td>
                 <td>
-                  07971 191 786
+                  <a href='tel:07971 191 786'>07971 191 786</a>
                   <br />
                   <a href="mailto:trainer@truman-enterprise.org.uk?body=My custom mail body">
                     trainer@truman-enterprise.org.uk
@@ -161,7 +161,7 @@ const ContactUs = () => {
                 <td>Jennifer Christian</td>
                 <td>Volunteering</td>
                 <td>
-                  07908 084 744
+                  <a href='tel:07908 084 744'>07908 084 744</a>
                   <br />
                   <a href="mailto:volunteer@truman-enterprise.org.uk?body=My custom mail body">
                     volunteer@truman-enterprise.org.uk
@@ -176,7 +176,7 @@ const ContactUs = () => {
                   Co-ordinator
                 </td>
                 <td>
-                  07512 896 176
+                  <a href='tel:07512 896 176'>07512 896 176</a>
                   <br />
                   <a href="mailto:feedback@truman-enterprise.org.uk?body=My custom mail body">
                     feedback@truman-enterprise.org.uk

@@ -14,7 +14,7 @@ height: auto;
 
 const Home = () => {
     return (
-        <Container style={{ paddingBottom: '100px'}}>
+        <Container>
             <Header>Have A Go Trips</Header>
             <ImgContainer>
                 <img src={boats} style={{ width: "100%", height: "100%" }} alt='boats in a lock' />

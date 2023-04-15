@@ -1,6 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 import { textAlign } from "@mui/system";
+import { useNavigate } from 'react-router-dom';
+import BookYourTrip from './BookYourTrip'
 
 const useStyles = makeStyles({
   container: {
@@ -53,13 +55,17 @@ const groupLeaderData = [
 
 
 const GroupLeaderPolicy = () => {
+  const navigate = useNavigate()
+  const goBack = () => { navigate(-1);}
   const classes = useStyles();
 
   return (
     <div className={classes.container}>
       <div className={classes.header}>Group Leader Policy</div>
-      <div>
+      <div style={{ paddingBottom: '15px'}}>
         {groupLeaderData.map((task) => <li key={task}>{task}</li>)}
+        <br />
+        <button style={{ background: '#9FDDA8'}}onClick={goBack}>GO BACK</button>
       </div>
     </div>
   );

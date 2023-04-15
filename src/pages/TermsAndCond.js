@@ -137,12 +137,20 @@ const TermsAndCond = () => {
         </li>
         <br />
       </List>
+      <div>
       <TextContainer>
-        Download a copy of the current risk assesments{" "}
+        Download a copy of the current risk assesments
         <Link to="/downloads/RiskAss2023.pdf" target="_blank" download>
           HERE
         </Link>
       </TextContainer>
+      <TextContainer>
+        Download a copy of our insurance
+        <Link to="/downloads/Insurance.pdf" target="_blank" download>
+          HERE
+        </Link>
+      </TextContainer>
+      </div>
     </Container>
   );
 };

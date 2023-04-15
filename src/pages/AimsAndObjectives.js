@@ -14,7 +14,7 @@ font-size: 18px;
 const AimsAndObjectives = () => {
   return (
 
-    <Container style={{paddingBottom: '48vh'}}>
+    <Container>
         <Header>Aims and Objectives</Header>
         <TextContainer>
         <List>

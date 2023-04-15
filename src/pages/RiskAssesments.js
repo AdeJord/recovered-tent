@@ -6,13 +6,15 @@ import { Container, Header, TextContainer } from '../ComponentStyles'
 
 const RiskAssesments = () => {
   return (
-    <Container style={{paddingBottom: '30vh'}}>
+    <Container>
       <Header>Risk Assesments</Header>
-      <TextContainer>We take safety very seriously.</TextContainer>
-      <TextContainer>Risk assesments are regularly updated on every aspect of your safety during the trip</TextContainer>
-      <TextContainer>These are available for you to download</TextContainer>
+      <TextContainer>We take your Health and Safety Very seriously.</TextContainer>
+      <TextContainer>It’s important to ensure that our risk assessments remain valid and up-to-date as circumstances may change over time.  When 
+        a task, or legislation changes, or improvements are made to the boat, the risk assesments are reviewed and updated if required.  It is very 
+        important that we monitor any risks that may be present so we can put measures into place to control these risks. 
+      </TextContainer>
       <br />
-      <TextContainer>Download them here</TextContainer>
+      <TextContainer>You can download the latest risk assesments on the link below</TextContainer>
 
       <Link to="/downloads/RiskAss2023.pdf" target="_blank" download>
         DOWNLOAD RISK ASSESMENTS

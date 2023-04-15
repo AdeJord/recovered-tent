@@ -60,11 +60,10 @@ const CovidSafeCruising = () => {
           Unless there is an emergency, the rear cabin & back deck will be for
           boat staff only. The group leader will be responsible for dealing
           directly with Sonny to hand over food, money & receipt on the front
-          deck.{" "}
+          deck.
         </li>
         <br />
         <li>
-          {" "}
           All persons (boat staff & passengers) will be encouraged to clean
           their hands thoroughly & frequently. Soap, hot water & paper towels
           will be readily available at the sink and wash basin. Hand sanitiser
@@ -95,7 +94,6 @@ const CovidSafeCruising = () => {
         </li>
         <br />
         <li>
-          {" "}
           The above information will be conveyed to group leaders by receiving a
           copy of these Covid procedures when they book a trip and signing an
           amended safety talk form before the trip starts. There will be a copy

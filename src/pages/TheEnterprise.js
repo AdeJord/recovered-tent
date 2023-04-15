@@ -7,7 +7,7 @@ import { Container, TextContainer, Header } from '../ComponentStyles'
 
 const TheEnterprise = () => {
   return (
-    <Container style={{paddingBottom: '34vh'}}>
+    <Container>
       <Header>The Enterprise</Header>
       <p style={{ border: 'dotted black 1px', height: '100px', width: '90vw', textAlign: 'center', color: 'gray'}}>Image of the boat here</p>
       <TextContainer>

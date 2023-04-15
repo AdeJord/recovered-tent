@@ -10,6 +10,8 @@ import { IconContext } from 'react-icons/lib';
 import Header2 from './Header2'
 import "@fontsource/roboto"; // Defaults to weight 400.
 import SideBarToggle from './sideBarToggle';
+import Backdrop from './Backdrop'
+import './Backdrop.css'
 
 
 const Nav = styled.div`
@@ -41,7 +43,7 @@ const SidebarNav = styled.nav`
   width: 55vw;
   height: auto;
   opacity: 90%;
-  overflow: scroll;
+  // overflow: scroll;
   padding-bottom: 20px;
   border: 1mm ridge black;
   justify-content: center;
@@ -90,6 +92,10 @@ const Sidebar = () => {
   }
 
 
+  const closeDrawerHandler = () => {
+    setSidebar(false);
+  };
+
   // WHEN SUBMENU ITEM IS CLICKED, NEED TO RUN SideBarToggle or showSideBar?
 
 
@@ -98,7 +104,7 @@ const Sidebar = () => {
     //code to make sidebar hide is https://stackoverflow.com/questions/66626487/hiding-sidebar-component-on-outside-click
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        
+      {sidebar && <Backdrop onClick={closeDrawerHandler} />}
         <Nav>
         <NavContainer>
         

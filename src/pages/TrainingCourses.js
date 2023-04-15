@@ -31,8 +31,8 @@ const TrainingCourses = () => {
                     safety and welfare.  It is however, expected that you will have some experience of working with groups and have previous practical experience of boating 
                     and boat handling.  Successful candidates qualify to operate boats with a maximum of 12 passengers, on non-tidal waterways in the UK.</li><br />
 
-                    <h4 style={{ paddingBottom: '10px'}}>For Details etc Contact David Leaper on 07971 191786</h4>
-                <li><a href="mailto:trainer@truman-enterprise.org.uk?body=My custom mail body">trainer@truman-enterprise.org.uk</a></li><br />
+                    <h4 style={{ paddingBottom: '10px'}}>For more details, Contact David Leaper on <a href="tel:07971 191786">07971 191786</a></h4>
+                <a href="mailto:trainer@truman-enterprise.org.uk?body=My custom mail body">trainer@truman-enterprise.org.uk</a><br />
 
             </TextContainer>
             

@@ -3,23 +3,17 @@ import styled from "styled-components";
 import NiceBoatPic from '../images/NiceBoatPic.jpg';
 import "@fontsource/roboto"; // Defaults to weight 400.
 import '../App.css'
-import { Container, TextContainer } from '../ComponentStyles'
+import { Container, TextContainer, Header } from '../ComponentStyles'
 
 const ImgContainer = styled.div`
-// padding: 10px;
-padding-top: 15px;
-
-width: 85vw;
-height: auto;
-
-@media (max-width: 802px){
-  padding-top: 2vw;
-}
+display: flex;
+justify-content: center;
 `
 
 const Home = () => {
   return (
     <Container>
+      <div>
       <ImgContainer>
       <img src={NiceBoatPic} style={{width: "100%", height:"100%"}}  alt='Nice Boat Pic'  />
       </ImgContainer>
@@ -39,11 +33,26 @@ const Home = () => {
         are provided). You can either bring your own sandwiches, order fish and chips, or have
         a drink and a meal at the pub. 
         </TextContainer>
-        <TextContainer style={{ paddingBottom: '10vh'}}>
+        <TextContainer>
         Our trips usually last between 4 and 8 hours.
         What time we leave and what time we return is up to you. Run entirley by volunteers,
         our only aim to give you an enjoyable and memorable day out on the canal.        
         </TextContainer>
+        <Header>
+          Many Thanks to
+        </Header>
+        <ImgContainer>
+        <img src='https://www.truman-enterprise.org.uk/photos/2019lotlog.jpg' alt='National Lottery Community Fund' style={{ width: '30vw', padding: '20px', height: 'auto'}} />
+        <img src='https://www.truman-enterprise.org.uk/graphics/co-op_logo.gif' alt='The Midlands Co-operative' style={{ width: '30vw', marginTop: '30px', padding: '20px',  height: '7vw'}} />
+        </ImgContainer>
+        <ImgContainer>
+        <img src='https://www.truman-enterprise.org.uk/graphics/crtlogo.jpg' alt='Canal & River Trust' style={{ width: '30vw', padding: '20px', height: 'auto'}} />
+        <img src='https://www.truman-enterprise.org.uk/graphics/HOE%20Logo.jpg' alt='Heart of England' style={{ width: '30vw', padding: '20px', height: 'auto'}} />
+        </ImgContainer>
+        </div>
+        <Header>
+          For your support.
+        </Header>
     </Container>
   );
 };
